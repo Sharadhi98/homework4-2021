@@ -76,8 +76,9 @@ td{
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;
+  justify-content: center;*/
+  margin: auto;
   text-transform: uppercase;
   background-color: #7e0825;
 }
