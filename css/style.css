@@ -60,9 +60,6 @@ a{
 /*Req 5*/
 /*Add selector and rule here*/
 :focus{
-  /* border-style: dashed;
-  border-width: 3px; 
-  border-color: #417243; */
   border: 3px dashed #417243;
 }
 
@@ -92,7 +89,6 @@ td{
 
 
 table{
-  /* border-collapse: collapse; check */
     border: 5px solid #000000;
     margin-left: auto;
     margin-right: auto;
@@ -100,17 +96,6 @@ table{
 
 }
 
-/* th:first-child {
-  border-top-left-radius: 50px;
-} */
-
-/* tbody tr:nth-child(odd) { /*check*/
-  
-  /* background: rgba(221, 221, 221, 0.5);
-  /* background: #DDDDDD;
-  opacity: 0.5; 
-  
-}*/
 
 tbody tr:nth-child(even) {
   background-color: #D1D1D1;
@@ -127,7 +112,7 @@ You can use Inspect Element or your editor to find selectors. */
   border-top-left-radius: 50px;
 }
 
-tr:last-child th:last-child {
+thead tr:last-child th:last-child {
   border-top-right-radius: 50px;
 }
 
@@ -135,7 +120,7 @@ tbody tr:last-child th.rowhead:first-child{
   border-bottom-left-radius: 50px;
 }
 
-tr:last-child td:last-child {
+tbody tr:last-child td:last-child {
   border-bottom-right-radius: 50px;
 }
 
